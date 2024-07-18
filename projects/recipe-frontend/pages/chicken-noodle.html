@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en" class="h-100" data-bs-theme="dark">
+
+<head>
+    <script src="/docs/5.3/assets/js/color-modes.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="d-flex flex-column h-100">
+    <!-- Navbar with sidebar -->
+    <nav class="navbar fixed-top" style="background-color: #e6a050;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Food Recipes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Side Menu</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/">Home</a>
+                        </li>                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Recipes
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item active" href="/pages/chicken-noodle.html">Chicken Noodle</a></li>
+                                <li><a class="dropdown-item" href="/pages/ranch-chicken.html">Ranch Chicken</a></li>
+                                <li><a class="dropdown-item" href="/pages/summer-shrimp.html">Summer Grilled Shrimp</a></li>
+                                
+                            </ul>
+                        </li>
+                    </ul>
+                  
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="' my-4">
+        <div class="container">
+            <img src="/images/chicken-noodle.png" width="400" height="400" class="img-fluid rounded mt-5 d-block img-thumbnail" >
+            <h2 class="my-4 fw-bold">Chicken Noodle Salad</h2>
+            <p>Get ready to make all sorts of friends when you bring a big bowl of this Asian chicken noodle salad to the next big cookout. The only folks you might scare away are the ones who brought regular pasta salads. There's just something delightfully addictive about this special combination of cold and spicy. This recipe is the perfect catchall for all those summer vegetables we're supposed to be eating more of, as well as any dry leftover chicken you have around.</p>
+            <h3>Ingredients</h3>
+            <ul>
+                <li>3 cloves garlic, crushed</li>
+                <li>½ cup seasoned rice vinegar</li>
+                <li>1 tablespoon soy sauce</li>
+                <li>1 tablespoon fish sauce</li>
+                <li>1 tablespoon brown sugar</li>
+                <li>1 tablespoon Sriracha chile sauce</li>
+                <li>1 tablespoon hoisin sauce</li>
+                <li>1 teaspoon sesame oil</li>
+                <li>1 cooked chicken breast</li>
+                <li>1 (8 ounce) package spaghetti</li>
+                <li>1 cup grated carrots</li>
+                <li>1 red bell pepper, thinly sliced</li>
+                <li>4 green onions, thinly sliced</li>
+                <li>½ cup chopped roasted, salted peanuts</li>
+                <li>⅓ cup chopped fresh basil</li>
+                <li>⅓ cup chopped fresh mint</li>
+                <li>⅓ cup chopped cilantro</li>
+            </ul>
+            <h3>Directions</h3>
+            <h5>Step 1</h5>
+            <p>Whisk garlic, rice vinegar, soy sauce, fish sauce, brown sugar, Sriracha, hoisin, and sesame oil together in a mixing bowl for the dressing.</p>
+            <h5>Step 2</h5>
+            <p>Tear chicken apart into strands similar in width to the spaghetti. Refrigerate until ready to use.</p>
+            <h5>Step 3</h5>
+            <p>Bring a large pot of lightly salted water to a boil. Cook spaghetti in the boiling water, stirring occasionally, until tender yet firm to the bite, about 12 minutes. Drain and rinse with cold water.</p>
+            <h5>Step 4</h5>
+            <p>Transfer spaghetti to a mixing bowl; add the chicken, carrots, bell pepper, and green onions. Pour in the dressing and toss by hand until well combined. Seal the surface of the salad with plastic wrap and refrigerate, tossing occasionally, for 2 to 12 hours, the longer the better.</p>
+            <h5>Step 5</h5>
+            <p>Add peanuts, basil, mint, and cilantro to the salad. Toss well; taste and adjust for seasoning.</p>
+        </div>
+        
+    </main>
+    <!-- footer -->
+    <footer class="footer mt-auto py-3 bg-body-tertiary">
+        <div class="container">
+          <span class="text-body-secondary">Food Recipes @ 2023-2024</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
